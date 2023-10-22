@@ -1,11 +1,13 @@
 Upute:
 Zadatak je odrađen u Windows OS-u. Korišten je xampp i postman.
 
-1. Potrebno je importati bazu. Unutar phpMyAdmin odabrati import i odabrati file leon_api.sql 
+1. Download zip sa GIT repozitorija i lokalno extractati
+   
+2. Potrebno je importati bazu. Unutar phpMyAdmin odabrati import i odabrati file leon_api.sql 
 	Unutar filea se nalazi kompletna baza sa potrebnim tablicama i podatcima
 	
-2. C/p cijeli folder leon unutar xampp/htdocs
-	Unutar foldera se nalaze 3 filea:
+3. C/P svog sadrzaja extractanog foldera u xampp/htdocs (.sql file nije potreban)
+	Unutar foldera se nalaze 3 filea i nove putanje trebaju izgledati:
 		xampp\htdocs\leon\index.php -> file sa kodom api-api-a
 		xampp\htdocs\leon\config.php -> file za spajanje na bazu podataka i secret_code-om
 		xampp\htdocs\leon\.htaccess -> potrebno kako bi radile putanje '/leon/voucher/get' i '/leon/auth'
